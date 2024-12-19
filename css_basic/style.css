@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: rgb(148, 148, 207);
 }
 main{
     display: flex;
@@ -76,7 +77,7 @@ h1, h2, h3, h4, h5, h6, header {
 article {
 }
 header {
-	border-bottom: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(243, 185, 185);
 	transition: border-bottom-color 1s ease;
 }
 header a {
