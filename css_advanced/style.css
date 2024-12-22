@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position:top;
+    padding-bottom: 150px;  
 }
 
 header {
@@ -48,8 +49,15 @@ nav img {
 
 
 .tops h1{
-    font-size: 8.5em;
-    color: aliceblue;
+    font-size: 8.2em;
+    color: #FFFFFF;
+}
+
+
+
+
+.one {
+    color: #C271FF;
 }
 
 .span{
@@ -63,33 +71,33 @@ nav img {
 
 
 .tops button{
-    margin-top: 3%;
+    margin-top: 4.5%;
     margin-left: 23% ; 
 
     height: 40px; 
     width: 18%; 
-    border-radius: 20px; /* Half of the height for perfect roundness */
-    border: 1px solid #79758d; /* Stylish purple border */
-    background-color: #6a5acd; /* Light background color */
-    color: #333; /* Dark text color */
-    font-size: 14px; /* Text size */
+    border-radius: 20px;  
+    border: 1px solid #79758d;  
+    background-color: #C271FF;  
+    color: #ffffff;  
+    font-size: 14px;  
     font-weight: bold;
     text-align: center;
-    cursor: pointer; /* Pointer cursor to indicate interactivity */
+    cursor: pointer;  
     transition: all 0.3s ease;
-    box-shadow: 0 4px 6px #333044; /* Shadow added */
+    box-shadow: 0 4px 6px #333044; 
 
 }
 button:hover {
-    background-color: #6a5acd; /* Purple background on hover */
-    color: white; /* White text on hover */
-    border-color: #483d8b; /* Darker border color on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    background-color: #6a5acd; 
+    color: white;  
+    border-color: #483d8b;  
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  
 }
 
 button:active {
-    transform: scale(0.98); /* Slightly smaller when clicked */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow when pressed */
+    transform: scale(0.98);  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
 }
 
 .under{
@@ -109,7 +117,7 @@ button:active {
     gap: 13%;
     text-align: center;
     margin-top: 7% ;
-    color: white;
+    color: #ffffff;
 }
 
 .tie img{
@@ -119,7 +127,8 @@ button:active {
 
 .phot p{
    font-style: italic;
-   margin-top: -8%;
+   margin-top: 6%;
+   color: #ffffff;
 }
 
 
@@ -129,57 +138,57 @@ button:active {
 
 .quote {
     margin-top: 4.5%; 
-    background-color: purple; /* Background color */
-    height: 360px; /* Set height */
-    padding: 0; /* Remove padding */
+    background-color: #C271FF;  
+    height: 360px; 
+    padding: 0;  
     width: 104%;
     position: absolute;
     margin-left: -4.5%; 
+    color: #ffffff;
     
 }
 
 .quote > div {
-    display: flex; /* Use flexbox for layout */
-    height: 100%; /* Ensure child divs fill the entire height of the parent */
-    margin-left: 22%; /* Remove margin */
-    padding: 0; /* Remove padding */
+    display: flex;  
+    height: 100%;  
+    margin-left: 22%;  
+    padding: 0;  
     margin-top: 5%;
 }
 
 
 
 .quote img {
-    max-width: 100%; /* Make sure the image doesn't overflow */
-    height: 180px; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: 180px;  
 }
 .quotes{
-    display: flex; /* Use flexbox for layout */
+    display: flex; 
     flex-direction: column;
     text-align: left;
-    margin-left: 2%; /* Remove margin */
-    padding: 0; /* Remove padding */
-    margin-top: %;
+    margin-left: 2%;  
+    padding: 0;  
     font-size: 1.3em;
 }
 blockquote {
-    font-size: 20px; /* Adjust font size */
-    color: white; /* Set text color */
+    font-size: 20px; 
+    color: #ffffff; 
 }
 
 h3, p {
-    color: white; /* Set text color */
-    margin: 5px 0; /* Adjust margins */
-    margin-left: 6%; /* Remove margin */
-    margin-top: 2%; /* Remove margin */
+    color: #ffff;  
+    margin: 5px 0;  
+    margin-left: 6%;  
+    margin-top: 2%;  
 }
 
 .peo{
     display: flex;
     flex-direction: row;
-    margin-top: 39%; 
-    background-color: white; /* Background color */
-    height: 360px; /* Set height */
-    padding: 0; /* Remove padding */
+    margin-top: 34%; 
+    background-color: white; 
+    height: 360px;  
+    padding: 0;  
     position: absolute;
     padding-left: 5%;
     
@@ -187,11 +196,13 @@ h3, p {
 
 .peo h2{
     position: absolute;
-    margin-top: -5%;
+    margin-top: -7%;
     padding-left: 40%;
+    font-size: 35px;
 }
 
 .ple{
+    margin-top: 8%;
     display: flex;
     padding-left: 5%;
     gap: 10%;
@@ -199,12 +210,12 @@ h3, p {
 
 .play{
     position: absolute;
-    margin-top: 2%;
-    padding-left: 7%;
+    margin-top: 3%;
+    padding-left: 9%;
 }
 
 .peo h3, p{
-   color: purple;
+   color: #1d1c1c;
 }
 
 
@@ -226,59 +237,64 @@ h3, p {
     flex-direction: row;
     padding-left: 6%;
     padding-top: 6%;
+    color: #C271FF;
 }
 
 .star{
     display: flex;
     flex-direction: row;
+    color: #C271FF;
 }
+
+.rate h3, .rate p, h4{
+    color: #C271FF;
+ }
 
 
 
 .mem {
-    background-color: purple; /* Background color */
-    height: 450px; /* Adjust height dynamically */
-    padding: 40px 10px; /* Add padding for breathing room */
+    background-color: #071629;  
+    height: 450px; 
+    padding: 40px 10px;  
     display: flex;
-    flex-direction: column; /* Arrange items vertically */
-    align-items: center; /* Center horizontally */
-    color: red;
+    flex-direction: column;  
+    align-items: center;  
     margin-top: 65%;
 }
 
 .mem h2 {
-    margin-bottom: 20px; /* Space below heading */
-    text-align: center; /* Center-align the text */
-    color: white; /* Better visibility on purple background */
+    margin-bottom: 20px;  
+    text-align: center; 
+    color: white;  
 }
 
 .lorem {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping if screen is too narrow */
-    justify-content: center; /* Center horizontally */
-    gap: 40px; /* Add space between items */
+    flex-wrap: wrap;  
+    justify-content: center; 
+    gap: 40px; 
     margin-top: 11%;
 }
 
 .fir {
-    text-align: center; /* Center-align text inside each box */
-    max-width: 200px; /* Limit the width of each item */
+    text-align: center;  
+    max-width: 200px;  
 }
 
 .fir img {
-    width: 80px; /* Adjust image size */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Space below image */
+    width: 80px; 
+    height: auto;  
+    margin-bottom: 10px; 
 }
 
 .fir h3 {
-    margin: 10px 0; /* Add space above and below heading */
+    margin: 10px 0;  
     color: white;
 }
 
 .fir p {
-    margin: 0; /* Remove extra margin */
-    color: white; /* Better visibility on purple background */
+    margin: 0;  
+    color: white;  
 }
 
 button {
@@ -286,9 +302,9 @@ button {
     margin-left: 36%;
     margin-top: 100px;
     padding: 10px 20px;
-    background-color: white;
-    color: purple;
-    border: 2px solid white;
+    background-color: #C271FF;
+    color: #ffffff;
+    border: 1px solid rgba(223, 183, 217, 0.671);
     border-radius: 15px;
     font-size: 16px;
     cursor: pointer;
@@ -296,7 +312,91 @@ button {
 }
 
 button:hover {
-    background-color: purple;
-    color: white;
-    border-color: white;
+    background-color: #ffffff;
+    color: #C271FF;
+    border-color: rgb(211, 167, 205);
+}
+
+
+.faq {
+    width: 100%;
+    padding: 40px 20px;  
+    background-color: #f4f4f4;  
+    text-align: center;
+}
+
+.faq h2 {
+    margin-bottom: 20px;  
+    font-size: 41px;
+    color: #333;
+}
+
+.point {
+    display: grid;  
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 20px; 
+    max-width: 1200px;  
+    margin: 0 auto; 
+}
+
+.box {
+    padding: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 8px;  
+    background-color: #fff;  
+    text-align: left; 
+
+.box h3 {
+    margin-bottom: 10px;  
+    font-size: 18px;
+    color: #555;
+}
+
+.box p {
+    line-height: 1.6;  
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+
+
+.foot {
+   
+    margin-top: 3%;
+    margin-left: -71%;
+}
+
+.foo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 87%;
+    margin-top: -1.7%;
+    color: #FFFFFF;
+    gap: 5%;
+    
+}
+
+
+
+
+.foot img {
+    height: 30px; 
+    width: auto; 
+}
+
+
+footer {
+    background-color: #071629;  
+    color: #FFFFFF;  
+    padding: 20px 0;  
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: fixed;  
+    bottom: 0;  
+    width: 100%;  
+    border: 3px solid #C271FF; 
+    z-index: 1000;  
 }
