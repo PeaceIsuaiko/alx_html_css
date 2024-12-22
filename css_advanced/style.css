@@ -1,0 +1,123 @@
+body{
+    background-image: url(/images/Object.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position:top;
+}
+
+header {
+   
+    margin-top: 3%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    margin-left: 56%;
+    list-style: none;
+
+}
+
+ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav img {
+    height: 30px; 
+    width: auto; 
+}
+
+
+.hero{
+    margin-left: 10%;
+    align-content: center;
+}
+
+.tops{
+      padding-left: 18.5%;
+}
+
+
+.tops h1{
+    font-size: 8.5em;
+    color: aliceblue;
+}
+
+.span{
+    margin-top: -10% ;
+    margin-left: 19% ;
+    display: flex;
+    flex-direction: row;
+    gap: 7.5%;
+    
+}
+
+
+.tops button{
+    margin-top: 3%;
+    margin-left: 23% ; 
+
+    height: 40px; 
+    width: 18%; 
+    border-radius: 20px; /* Half of the height for perfect roundness */
+    border: 1px solid #79758d; /* Stylish purple border */
+    background-color: #6a5acd; /* Light background color */
+    color: #333; /* Dark text color */
+    font-size: 14px; /* Text size */
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer; /* Pointer cursor to indicate interactivity */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px #333044; /* Shadow added */
+
+}
+button:hover {
+    background-color: #6a5acd; /* Purple background on hover */
+    color: white; /* White text on hover */
+    border-color: #483d8b; /* Darker border color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+button:active {
+    transform: scale(0.98); /* Slightly smaller when clicked */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow when pressed */
+}
+
+.under{
+    padding-left: 6%;
+    padding-top: 11.3%;
+}
+
+.under h2{
+    margin-left: 33.3% ;
+    font-size: 1.7em;
+}
+
+
+.phot{
+    display: flex;
+    flex-direction: row;
+    gap: 13%;
+    text-align: center;
+    margin-top: 7% ;
+    color: white;
+}
+
+.tie img{
+    height: auto;
+    border-radius: 50%;
+}
+
+.phot p{
+   font-style: italic;
+   margin-top: -8%;
+}
