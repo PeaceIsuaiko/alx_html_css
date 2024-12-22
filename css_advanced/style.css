@@ -121,3 +121,54 @@ button:active {
    font-style: italic;
    margin-top: -8%;
 }
+
+
+
+
+
+
+.quote {
+    margin-top: 4.5%; 
+    background-color: purple; /* Background color */
+    height: 360px; /* Set height */
+    padding: 0; /* Remove padding */
+    width: 104%;
+    position: absolute;
+    margin-left: -4.5%; 
+    
+}
+
+.quote > div {
+    display: flex; /* Use flexbox for layout */
+    height: 100%; /* Ensure child divs fill the entire height of the parent */
+    margin-left: 22%; /* Remove margin */
+    padding: 0; /* Remove padding */
+    margin-top: 5%;
+}
+
+
+
+.quote img {
+    max-width: 100%; /* Make sure the image doesn't overflow */
+    height: 180px; /* Maintain aspect ratio */
+}
+.quotes{
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2%; /* Remove margin */
+    padding: 0; /* Remove padding */
+    margin-top: %;
+    font-size: 1.3em;
+}
+blockquote {
+    font-size: 20px; /* Adjust font size */
+    color: white; /* Set text color */
+}
+
+h3, p {
+    color: white; /* Set text color */
+    margin: 5px 0; /* Adjust margins */
+    margin-left: 6%; /* Remove margin */
+    margin-top: 2%; /* Remove margin */
+}
