@@ -232,3 +232,71 @@ h3, p {
     display: flex;
     flex-direction: row;
 }
+
+
+
+.mem {
+    background-color: purple; /* Background color */
+    height: 450px; /* Adjust height dynamically */
+    padding: 40px 10px; /* Add padding for breathing room */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center horizontally */
+    color: red;
+    margin-top: 65%;
+}
+
+.mem h2 {
+    margin-bottom: 20px; /* Space below heading */
+    text-align: center; /* Center-align the text */
+    color: white; /* Better visibility on purple background */
+}
+
+.lorem {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if screen is too narrow */
+    justify-content: center; /* Center horizontally */
+    gap: 40px; /* Add space between items */
+    margin-top: 11%;
+}
+
+.fir {
+    text-align: center; /* Center-align text inside each box */
+    max-width: 200px; /* Limit the width of each item */
+}
+
+.fir img {
+    width: 80px; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below image */
+}
+
+.fir h3 {
+    margin: 10px 0; /* Add space above and below heading */
+    color: white;
+}
+
+.fir p {
+    margin: 0; /* Remove extra margin */
+    color: white; /* Better visibility on purple background */
+}
+
+button {
+
+    margin-left: 36%;
+    margin-top: 100px;
+    padding: 10px 20px;
+    background-color: white;
+    color: purple;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+    border-color: white;
+}
