@@ -102,6 +102,8 @@ project-root/
 
 ## Contributions
 Feel free to submit issues or pull requests for improvements.
+## Contributions
+Feel free to submit issues or pull requests for improvements.
 
 ## License
 This project is licensed under the MIT License.
