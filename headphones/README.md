@@ -100,8 +100,7 @@ project-root/
 
 2. Open the `index.html` file in your browser to view the project.
 
-## Contributions
-Feel free to submit issues or pull requests for improvements.
+.
 ## Contributions
 Feel free to submit issues or pull requests for improvements.
 
